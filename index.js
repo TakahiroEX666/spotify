@@ -10,8 +10,8 @@ app.use(express.json());
 
 // --- การตั้งค่า Spotify API ---
 const spotifyApi = new SpotifyWebApi({
-    clientId: process.env.SPOTIFY_CLIENT_ID,
-    clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
+    clientId: "7b188586c0004c14837336cd1f89d144",
+    clientSecret: "6a35ebad8f5847e7ac30794eba88a0e2",
 });
 
 // ฟังก์ชันสำหรับขอและรีเฟรช Access Token จาก Spotify
