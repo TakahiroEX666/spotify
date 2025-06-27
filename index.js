@@ -183,8 +183,6 @@ app.post('/api/random-music', async (req, res) => {
     }
 });
 
----
-
 // --- เริ่มต้นเซิร์ฟเวอร์ ---
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
