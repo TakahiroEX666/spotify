@@ -1,4 +1,3 @@
-require('dotenv').config(); // โหลด Environment Variables จากไฟล์ .env
 
 const express = require('express');
 const SpotifyWebApi = require('spotify-web-api-node');
