@@ -37,8 +37,6 @@ async function getSpotifyAccessToken() {
 // เรียกขอ Access Token ทันทีที่เซิร์ฟเวอร์เริ่มทำงาน
 getSpotifyAccessToken();
 
----
-
 // --- ฟังก์ชันช่วยเหลือ (Helper Functions) ---
 
 // ฟังก์ชันสำหรับแปลง 'mood' เป็น Audio Features ที่ Spotify API เข้าใจ
